@@ -66,7 +66,7 @@ public class CreateBug {
     }
 
     public static String generateString(String filename) throws IOException {
-        String filePath = System.getProperty("user.dir")+"\\Payloads\\"+filename;
+        String filePath = System.getProperty("user.dir")+"\\src\\main\\resources\\"+filename;
         return new String(Files.readAllBytes(Paths.get(filePath)));
     }
 }

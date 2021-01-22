@@ -1,0 +1,13 @@
+2021-01-22 15:14:51.087 [main] INFO  core.BaseTest - Starting test: doLogin
+2021-01-22 15:14:51.103 [main] INFO  core.RESTCalls - Inside POSTRequest call
+2021-01-22 15:15:50.127 [main] DEBUG core.RESTCalls - io.restassured.internal.RequestSpecificationImpl@3650d4fc
+2021-01-22 15:15:50.130 [main] INFO  utils.TestUtils - Converting json response to string
+2021-01-22 15:15:50.147 [main] DEBUG utils.TestUtils - {"session":{"name":"JSESSIONID","value":"DFA5C6F56FF011275124446C857D3E18"},"loginInfo":{"loginCount":38,"previousLoginTime":"2021-01-21T16:15:35.620+0100"}}
+2021-01-22 15:15:50.147 [main] INFO  utils.TestUtils - Parsing response to json
+2021-01-22 15:15:50.150 [main] DEBUG utils.TestUtils - io.restassured.path.json.JsonPath@7f93dd4e
+2021-01-22 15:15:51.535 [main] INFO  core.BaseTest - Jira sessionid is: DFA5C6F56FF011275124446C857D3E18
+2021-01-22 15:15:51.538 [main] INFO  issueTests.CreateIssue - Starting verify create issue test
+2021-01-22 15:15:51.540 [main] INFO  core.RESTCalls - Inside POSTRequest call
+2021-01-22 15:16:27.253 [main] DEBUG core.RESTCalls - io.restassured.internal.RequestSpecificationImpl@4ef2ab73
+2021-01-22 15:16:27.255 [main] INFO  utils.TestUtils - Getting status code
+2021-01-22 15:16:27.255 [main] DEBUG utils.TestUtils - 201
